@@ -1,0 +1,3 @@
+- just a side project with some Arduino C++ code
+- makes three LEDs connected to pins 9, 8, and 7 turn on and off at different times
+- meant to mimic a traffic light
