@@ -1,3 +1,5 @@
+// feel free to copy and paste me into your Arduino IDE!
+
 int ledPin1 = 9; // pin1 connected to the LED
 int ledPin2 = 8; // pin2 connected to the LED
 int ledPin3 = 7; // pin3 connected to the LED
