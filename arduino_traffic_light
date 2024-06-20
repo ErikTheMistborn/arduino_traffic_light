@@ -1,0 +1,25 @@
+int ledPin1 = 9; // pin1 connected to the LED
+int ledPin2 = 8; // pin2 connected to the LED
+int ledPin3 = 7; // pin3 connected to the LED
+
+void setup() {
+  pinMode(ledPin1, OUTPUT); // set the pin as an output
+  pinMode(ledPin2, OUTPUT); // set the pin as an output
+  pinMode(ledPin3, OUTPUT); // set the pin as an output
+
+}
+
+void loop() {
+  digitalWrite(ledPin1, HIGH); // turn LED1 on
+  digitalWrite(ledPin2, LOW); // turn LED2 off
+  digitalWrite(ledPin3, LOW); // turn LED3 off
+  delay(3000); // wait for one second (1000 miliseconds)
+  digitalWrite(ledPin1, LOW); // turn LED1 off
+  digitalWrite(ledPin2, HIGH); // turn LED2 on
+  digitalWrite(ledPin3, LOW); // turn LED3 off
+  delay(1000); // wait for one second (1000 miliseconds)
+  digitalWrite(ledPin1, LOW); // turn LED1 off
+  digitalWrite(ledPin2, LOW); // turn LED2 off
+  digitalWrite(ledPin3, HIGH); // turn LED3 on
+  delay(4000); // wait for one second (1000 miliseconds)
+}
